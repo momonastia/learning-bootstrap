@@ -39,7 +39,7 @@ footer {
 }
 
 .itd_triangle {
-  margin-right: -3px;
+  margin-right: -5px;
   width: 0;
   height: 0;
   border-style: solid;
@@ -48,10 +48,32 @@ footer {
 }
 
 .btn-itd {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto;
-  padding: 8px 30px;
-  background-color: var(--color2);
-  color: var(--bs-white);
+  display: block !important;
+  max-width: 200px !important;
+  margin: 0 auto !important;
+  padding: 8px 30px !important;
+  background-color: var(--color2) !important;
+  color: var(--bs-white) !important;
+  border: none !important;
+}
+
+.btn-itd:hover {
+  background-color: var(--color1) !important;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
