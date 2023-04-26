@@ -106,6 +106,14 @@ footer {
   color: var(--color2);
 }
 
+/* For whom */
+
+.forwhom h5 {
+  padding: 50px;
+  border: 3px solid var(--color1);
+  border-radius: 5px;
+}
+
 /* Color */
 
 .color1 {
