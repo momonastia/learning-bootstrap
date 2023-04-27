@@ -3,8 +3,6 @@
   --color2: #52339a;
 }
 
-header,
-footer,
 section {
   padding: 100px 0;
 }
@@ -139,6 +137,12 @@ footer {
 
 .itd-img {
   max-width: 260px;
+}
+
+/* footer */
+
+footer {
+  padding: 30px 0;
 }
 
 /* Color */
